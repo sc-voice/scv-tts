@@ -3,8 +3,29 @@
   "version": "1.0.0",
   "description": "SuttaCentral Voice Text-to-Speech Library",
   "main": "index.js",
+  "private": false,
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "json5": "^2.2.0",
+    "log-instance": "^0.2.6",
+    "memo-again": "^0.4.0",
+    "oya-ann": "^0.1.5",
+    "promise-queue": "^2.2.5",
+    "say-again": "^0.2.13",
+    "scv-bilara": "^2.1.63",
+    "tmp": "^0.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "should": "^13.2.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:verbose",
+    "test:test": "mocha -w --watch-ignore node_modules,.git,local -R min --inline-diffs -g TEST",
+    "test:verbose": "mocha --inline-diffs",
+    "test:watch": "mocha -w --inline-diffs"
   },
   "repository": {
     "type": "git",
