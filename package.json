@@ -1,0 +1,26 @@
+{
+  "name": "scv-tts",
+  "version": "1.0.0",
+  "description": "SuttaCentral Voice Text-to-Speech Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sc-voice/scv-tts.git"
+  },
+  "keywords": [
+    "SuttaCentral",
+    "Voice",
+    "AWS",
+    "Polly",
+    "Text-to-Speech"
+  ],
+  "author": "Karl Lew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sc-voice/scv-tts/issues"
+  },
+  "homepage": "https://github.com/sc-voice/scv-tts#readme"
+}
