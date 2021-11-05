@@ -1,6 +1,6 @@
 {
   "name": "scv-tts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "SuttaCentral Voice Text-to-Speech Library",
   "main": "index.js",
   "private": false,
