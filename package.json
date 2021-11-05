@@ -11,7 +11,7 @@
     "json5": "^2.2.0",
     "log-instance": "^0.2.6",
     "memo-again": "^0.4.0",
-    "oya-ann": "^0.1.5",
+    "oya-ann": "^0.2.1",
     "promise-queue": "^2.2.5",
     "say-again": "^0.2.13",
     "scv-bilara": "^2.1.63",
